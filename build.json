@@ -1,0 +1,6 @@
+{
+  "schema": "moon-independent-build-spec/v1",
+  "id": "satellite-gps",
+  "kind": "native",
+  "entry": "mods/satellite-gps/mod.c"
+}

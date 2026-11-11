@@ -1,0 +1,41 @@
+{
+  "id": "satellite-gps",
+  "kind": "native",
+  "version": "0.1.0",
+  "display_name": "Satellite GPS",
+  "gameplay": true,
+  "feature_dependencies": [
+    "vehicle-control-framework",
+    "map-control-framework",
+    "shop-framework",
+    "hints-framework"
+  ],
+  "play_help": [
+    "Driven GPS is free: enable native cruise and press K to follow your heading in a straight line around the moon.",
+    "Board an owned car, then buy its $750 Satellite Autonomous Module in Modded Shop.",
+    "Use the map's top Vehicles / GPS row to select a car, capture heading or A/B line, follow it, drive to a right-clicked point, or stop.",
+    "Autonomous driving is host-only and stops for obstacles; it does not plan detours or U-turns."
+  ],
+  "requires_apis": [
+    {
+      "api": "vehicle-control-framework.controls",
+      "abi": 1,
+      "min_size": 72
+    },
+    {
+      "api": "map-control-framework.map-controls",
+      "abi": 1,
+      "min_size": 32
+    },
+    {
+      "api": "shop-framework.shop",
+      "abi": 1,
+      "min_size": 56
+    },
+    {
+      "api": "hints-framework.hints",
+      "abi": 1,
+      "min_size": 24
+    }
+  ]
+}
