@@ -1,5 +1,7 @@
 # Satellite GPS
 
+<img src="media/icon.png" alt="Satellite GPS icon" width="128" height="128">
+
 Straight-line driven GPS with purchased autonomous car modules and map commands.
 
 ## Install
